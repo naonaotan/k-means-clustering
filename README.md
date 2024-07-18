@@ -19,7 +19,7 @@ The analyzed data was 'penguins' of dataset 'palmerpenguins' present in the R St
 ![palmer](https://raw.githubusercontent.com/naonaotan/k-means-clustering/main/lter_penguins.png)
 
 #### Bill dimensions*
-![culmen](https://raw.githubusercontent.com/naonaotan/k-means-clustering/main/culmen_depth.png)
+![culmen]()
 
 For this penguin data, the culmen (bill) length and depth are measured as shown above.
 
