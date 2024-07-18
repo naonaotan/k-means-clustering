@@ -1,0 +1,15 @@
+install.packages("palmerpenguins")
+library(palmerpenguins)
+df = penguins
+
+#graph 1
+fviz_nbclust(df, kmeans, method = "wss")
+
+#graph 2
+gap_stat <- clusGap(df, FUN = kmeans, nstart = 25, K.max = 10)
+fviz_gap_stat(gap_stat)
+
+pg <- kmeans(df, centers = 5, nstart = 25)
+fviz_cluster(km, data = df)
+aggregate(km, by = list(cluster = km$cluster), mean)
+
