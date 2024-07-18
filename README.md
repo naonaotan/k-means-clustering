@@ -52,23 +52,28 @@ According to this method, the analysis showed that the ideal number of clusters 
 Thus, we proceeded to the third step: **executing the algorithm**. We ensured the reproducibility of the model using the set.seed(1) command and proceeded to the actual clustering, using the ideal value for k = 5.
 
 The fourth step applied was to **visualize the clusters**. We plotted the scatter plot and calculated the means for each cluster.
-![cluster]()
+![cluster](https://raw.githubusercontent.com/naonaotan/k-means-clustering/main/cluster.png)
 
 ### Conclusion
 
 We named the 5 groups with similar characteristics in a way that clearly indicates the type of analysis carried out based on the applied method.
 
 **Cluster 1**:
-Small and Robust Penguins: This cluster is characterized by smaller penguins compared to the other groups, with an average bill length of 39.1 mm, bill depth of 18.7 mm, and flipper length of 181 mm. Despite their smaller size, they have an average body mass of 3750 g, indicating robustness.
+
+*Small and Robust Penguins* - This cluster is characterized by smaller penguins compared to the other groups, with an average bill length of 39.1 mm, bill depth of 18.7 mm, and flipper length of 181 mm. Despite their smaller size, they have an average body mass of 3750 g, indicating robustness.
 
 **Cluster 2**:
-Medium Penguins with Long Bills: This group consists of medium-sized penguins, with an average bill length of 39.5 mm, bill depth of 17.4 mm, and flipper length of 186 mm. The main distinguishing feature is the long bill, with the highest average value among the clusters. The average body mass is 3800 g.
+
+*Medium Penguins with Long Bills* - This group consists of medium-sized penguins, with an average bill length of 39.5 mm, bill depth of 17.4 mm, and flipper length of 186 mm. The main distinguishing feature is the long bill, with the highest average value among the clusters. The average body mass is 3800 g.
 
 **Cluster 3**:
-Tall and Light Penguins: This cluster stands out for penguins with the longest average flipper length (195 mm) among the groups, indicating they may be more adapted to swimming. The average bill length is 40.3 mm, bill depth is 18 mm, and the average body mass is 3250 g, the lowest among the clusters.
+
+*Tall and Light Penguins* - This cluster stands out for penguins with the longest average flipper length (195 mm) among the groups, indicating they may be more adapted to swimming. The average bill length is 40.3 mm, bill depth is 18 mm, and the average body mass is 3250 g, the lowest among the clusters.
 
 **Cluster 4**:
-Robust Penguins with Short Bills: This group consists of penguins with an average body mass of 3450 g, indicating robustness. The average bill length is 36.7 mm, the shortest among the clusters, and the bill depth is 19.3 mm. The flipper length is 193 mm.
+
+*Robust Penguins with Short Bills* - This group consists of penguins with an average body mass of 3450 g, indicating robustness. The average bill length is 36.7 mm, the shortest among the clusters, and the bill depth is 19.3 mm. The flipper length is 193 mm.
 
 **Cluster 5**:
-Large Penguins with Deep Bills: This cluster is characterized by penguins with the longest average bill length (45.5 mm) and the greatest average bill depth (20.6 mm) among the groups, suggesting an adaptation to a specific diet. The average body mass is 3650 g, and the flipper length is 190 mm.
+
+*Large Penguins with Deep Bills* - This cluster is characterized by penguins with the longest average bill length (45.5 mm) and the greatest average bill depth (20.6 mm) among the groups, suggesting an adaptation to a specific diet. The average body mass is 3650 g, and the flipper length is 190 mm.
