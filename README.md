@@ -23,8 +23,10 @@ The analyzed data was 'penguins' of dataset 'palmerpenguins' present in the R St
 
 For this penguin data, the culmen (bill) length and depth are measured as shown above.
 
-#### Flipper dimensions*
+#### Flipper dimensions
 ![flipper](https://raw.githubusercontent.com/naonaotan/k-means-clustering/main/flipper.png)
+
+*Artwork by @allison_horst
 
 ### Objective
 
@@ -52,6 +54,7 @@ According to this method, the analysis showed that the ideal number of clusters 
 Thus, we proceeded to the third step: **executing the algorithm**. We ensured the reproducibility of the model using the set.seed(1) command and proceeded to the actual clustering, using the ideal value for k = 5.
 
 The fourth step applied was to **visualize the clusters**. We plotted the scatter plot and calculated the means for each cluster.
+
 ![cluster](https://raw.githubusercontent.com/naonaotan/k-means-clustering/main/cluster.png)
 
 ### Conclusion
